@@ -1,0 +1,70 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  justify-self: center;
+}
+
+.heading {
+  margin-left: 9.5rem;
+  width: 40%;
+}
+
+.heading__header {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 5rem;
+  line-height: 110%;
+  letter-spacing: 0.01em;
+  color: #fff;
+}
+
+.heading__paragraph {
+  width: 70%;
+  font-size: 1.7rem;
+  line-height: 150%;
+  color: #fff;
+  opacity: 0.8;
+}
+
+.book {
+  display: flex;
+  flex-direction: row;
+}
+
+.book__left_side {
+  width: 300px;
+  height: 400px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(70px);
+  border-radius: 16px 0 0 16px;
+  display: flex;
+  padding: 2rem;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.book_menu {
+  font-size: 1.3rem;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.book_title {
+  font-size: 2.2rem;
+  font-weight: 500;
+  line-height: 135%;
+  color: #fff;
+  width: 80%;
+  padding-bottom: 1rem;
+}
+
+.book_arrow {
+  opacity: 0.5;
+}
